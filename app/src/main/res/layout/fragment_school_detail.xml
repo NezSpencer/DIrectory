@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/school"
+            android:text="@string/school_detail_intro"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="40dp"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/faculty"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Faculty:"
+            android:layout_marginBottom="25dp"
+            android:layout_below="@+id/school"
+            android:layout_height="wrap_content"/>
+
+    <Spinner
+            android:id="@+id/faculty_ans"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_toEndOf="@+id/faculty"
+            android:layout_toRightOf="@+id/faculty"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:layout_alignBaseline="@+id/faculty"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/dept"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="25dp"
+            android:text="Department:"
+            android:layout_below="@+id/faculty"
+            android:layout_height="wrap_content"/>
+
+    <Spinner
+            android:id="@+id/dept_ans"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_toEndOf="@+id/dept"
+            android:layout_toRightOf="@+id/dept"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_alignBaseline="@+id/dept"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/level"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Level:"
+            android:layout_below="@+id/dept"
+            android:layout_height="wrap_content"/>
+
+    <Spinner
+            android:id="@+id/level_ans"
+            android:layout_width="wrap_content"
+            android:minWidth="80dp"
+            android:layout_toEndOf="@+id/level"
+            android:layout_toRightOf="@+id/level"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:layout_alignTop="@+id/level"
+            android:layout_alignBaseline="@+id/level"
+            android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

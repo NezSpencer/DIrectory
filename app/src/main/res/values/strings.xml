@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">DIrectory</string>
+
+    <!--facebook strings-->
+    <string name="facebook_app_id" translatable="false">1134708306564982</string>
+    <string name="fb_login_protocol_scheme">fb1134708306564982</string>
+    <string name="facebook_application_id" translatable="false">1134708306564982</string>
+
+    <string name="facebook_login_protocol_scheme">fb1134708306564982</string>
+    <!--facebook strings-->
+
+    <!--twitter strings-->
+    <string name="twitter_consumer_key" translatable="false">9U5pHN148fUWXfhTWF7nTDb2y</string>
+    <string name="twitter_consumer_secret" translatable="false"> enO8GVKRXb4bKgd5QQGXe0Ca2DGhrNfGvYoupAnR1ftFcHqKKw</string>
+    <!--twitter strings-->
+
+    <!--nav drawer items-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--nav drawer items-->
+    <string name="welcome_personal_text">Welcome, Lets get to know YOU</string>
+    <string name="school_detail_intro">So, you are an OAU student, How about some school
+        details?</string>
+    <string name="hostel_detail_intro">Time for your Hostel Details</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="faculty">
+        <item>Administration</item>
+        <item>Agriculture</item>
+        <item>Arts</item>
+        <item>Education</item>
+        <item>Environmental Design and Management</item>
+        <item>Basic Medical Sciences</item>
+        <item>Clinical Sciences</item>
+        <item>Dentistry</item>
+        <item>Law</item>
+        <item>Pharmacy</item>
+        <item>Sciences</item>
+        <item>Technology</item>
+        <item>Social Sciences</item>
+    </string-array>
+
+    <string-array name="administration">
+        <item>Public Administration</item>
+        <item>Public Administration</item>
+        <item>Management and Accounting</item>
+        <item>Local Government Studies</item>
+    </string-array>
+
+    <string-array name="agriculture">
+        <item>Agricultural Economics</item>
+        <item>Agricultural Extension and Rural Development</item>
+        <item>Animal Sciences</item>
+        <item>Crop Production and Protection</item>
+        <item>Soil Science and Land Resources Management</item>
+        <item>Family,Nutrition and Consumer Sciences</item>
+
+    </string-array>
+    <string-array name="arts">
+        <item>Dramatic Arts</item>
+        <item>English Language</item>
+        <item>Foreign Languages</item>
+        <item>History</item>
+        <item>Linguistics and African Languages</item>
+        <item>Music</item>
+        <item>Philosophy</item>
+        <item>Religious Studies</item>
+    </string-array>
+    <string-array name="education">
+        <item>Educational Foundations and Counselling (EFC)</item>
+        <item>Continuing Education (DCE)</item>
+        <item>Educational Technology (DET)</item>
+        <item>Special Education and Curriculum Studies (SEC)</item>
+        <item>Educational Administration and Planning (EAP)</item>
+        <item>Institute of Education (IED)</item>
+        <item>Institute of Physical and Health Education (PHE)</item>
+    </string-array>
+
+    <string-array name="environmental_design_management">
+        <item>Architecture</item>
+        <item>Building</item>
+        <item>Estate Management</item>
+        <item>Fine Arts</item>
+        <item>Quantity Surveying</item>
+        <item>Urban and Regional Planning</item>
+    </string-array>
+
+    <string-array name="basic_medical_sciences">
+
+        <item>Anatomy and Cell Biology</item>
+        <item>Multi Disciplinary Laboratory</item>
+        <item>Nursing Science</item>
+        <item>Chemical Pathology</item>
+        <item>Physiological Science</item>
+        <item>Medical Rehabilitation</item>
+        <item>Haematology and Immunology</item>
+        <item>Medical Microbiology and Parastiology</item>
+        <item>Morbid Anatomy and Forensic Medicine</item>
+    </string-array>
+
+    <string-array name="clinical_sciences">
+        <item>Anaesthesia and Intensive Care</item>
+        <item>Community Health and Nutrition</item>
+        <item>Radiology</item>
+        <item>Paediatrics and Child Health</item>
+        <item>Orthopaedic Surgery and Traumatology</item>
+        <item>Obstetrics, Gynaecology and Perimatology</item>
+        <item>Mental Health</item>
+        <item>Medicine</item>
+        <item>Dermatology and Venerology</item>
+        <item>Surgery</item>
+    </string-array>
+
+    <string-array name="dentistry">
+
+        <item>Oral and Maxillofacial Surgery and Oral Pathology</item>
+        <item>Preventive and Community Dentistry</item>
+        <item>Child Dental Health</item>
+        <item>Restorative Dentistry</item>
+    </string-array>
+
+    <string-array name="law">
+        <item>Law</item>
+    </string-array>
+
+    <string-array name="pharmacy">
+        <item>Pharmaceutical Chemistry</item>
+        <item>Pharmaceutics</item>
+        <item>Pharmacognosy</item>
+        <item>Pharmacology</item>
+    </string-array>
+
+    <string-array name="sciences">
+        <item>Biochemistry</item>
+        <item>Botany</item>
+        <item>Chemistry</item>
+        <item>Geology</item>
+        <item>Mathematics</item>
+        <item>Microbiology</item>
+        <item>Physics</item>
+        <item>Zoology</item>
+    </string-array>
+
+    <string-array name="social_science">
+        <item>Economics</item>
+        <item>Geography</item>
+        <item>Political Science</item>
+        <item>Psychology</item>
+        <item>Politics, Philosophy and Economics</item>
+        <item>Demography and Social Statistics</item>
+        <item>Sociology and Anthropology</item>
+    </string-array>
+
+    <string-array name="technology">
+        <item>Chemical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Computer Science and Engineering</item>
+        <item>Electronic and Electrical Engineering</item>
+        <item>Food Science and Technology</item>
+        <item>Mechanical Engineering</item>
+        <item>Agricultural and Environmental Engineering</item>
+    </string-array>
+
+    <string-array name="level">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+    </string-array>
+
+    <string-array name="room_number">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="block_name">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+    </string-array>
+
+    <string-array name="hostel_name">
+        <item>Fajuyi Hall</item>
+        <item>Angola Hall</item>
+        <item>Awolowo Hall</item>
+        <item>Mozambique Hall</item>
+        <item>Akintola Hall</item>
+        <item>Alumni Hall</item>
+    </string-array>
+
+</resources>
